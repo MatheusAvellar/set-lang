@@ -1,5 +1,9 @@
 # About Set
-Esoteric **Set** programming language - Only one command, endless possibilities! Based off the [original specification](https://www.reddit.com/r/esolangs/comments/54b0b1/set_an_language_with_1_command/) by reddit user [qwertyu63](https://www.reddit.com/user/qwertyu63). Developed by [Matheus Avellar](https://github.com/MatheusAvellar)
+Esoteric **Set** programming language - Only one command, endless possibilities!
+Based off the [original specification](https://www.reddit.com/r/esolangs/comments/54b0b1/set_an_language_with_1_command/)
+by reddit user [qwertyu63](https://www.reddit.com/user/qwertyu63).
+Developed by [Matheus Avellar](https://github.com/MatheusAvellar).
+Feel free to check the [Live interpreter](https://avellar.ml/set-lang) done in JavaScript.
 
 # Variables
 **Set** supports 52 assignable variables. Each variable is a single upper or lower case letter and stores a single unbounded integer.
@@ -21,6 +25,7 @@ Example:
 set k 10  > Assings 10 to the variable 'k'
 set a A   > Assings ASCII value of 'A' (65) to the variable 'a'
 ```
+
 <hr/>
 ## Exclamation point (`!`)
 Exclamation points indicate input/output. When used as argument:
@@ -58,6 +63,7 @@ set a ?  > Defines 'a' as 1
 set ? 1  > Jumps to line 1, thus creating an infinite loop
 set z 1  > This line will never be executed, as the code cannot reach it
 ```
+
 <hr/>
 ## Combiners (`(N+M)`)
 Combiners allow you to combine two numbers into one. There are two valid combiners; each used in the place of argument `B`:
@@ -92,7 +98,7 @@ set a 1
 ```
 
 <hr/>
-# Comments
+## Comments
 
 Although not specified in the original concept of the **Set** language,
 the `>` (greater than) character may be used to insert comments on the **Set** code.
