@@ -4,6 +4,7 @@ Based off the [original specification](https://www.reddit.com/r/esolangs/comment
 by reddit user [qwertyu63](https://www.reddit.com/user/qwertyu63).
 Developed by [Matheus Avellar](https://github.com/MatheusAvellar).
 Feel free to check the [Live interpreter](https://avellar.ml/set-lang) done in JavaScript.
+Check the [Esolangs page](https://esolangs.org/wiki/Set), or perhaps the [Rosettacode page](http://rosettacode.org/wiki/Set_lang).
 
 # Variables
 **Set** supports 52 assignable variables. Each variable is a single upper or lower case letter and stores a single unbounded integer.
