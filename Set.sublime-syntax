@@ -1,0 +1,49 @@
+%YAML 1.2
+---
+name: Set
+file_extensions:
+  - set
+scope: source.js
+
+contexts:
+  main:
+    - match: \bset\b
+      scope: keyword.assignment.set
+    - include: comments
+    - include: constants
+    - include: numbers
+    - include: variables
+
+  comments:
+    - match: '>'
+      scope: comment.line.set
+      push:
+        - meta_scope: comment.line.set
+        - match: '\n'
+          pop: true
+
+  constants:
+    - match: '\b([A-Z])\b'
+      scope: variable.other.constant
+    - match: '\B(\?|\!)\B'
+      scope: punctuation.definition.variable.set
+
+  numbers:
+    - match: '\b([1-9]+[0-9]*|0)\b'
+      scope: constant.numeric.set
+
+  operators:
+    - match: '\['
+      scope: punctuation.section.brackets.begin.set
+    - match: '\]'
+      scope: punctuation.section.brackets.end.set
+    - match: '\('
+      scope: punctuation.section.parens.begin.set
+    - match: '\)'
+      scope: punctuation.section.parens.end.set
+    - match: '\=|\/|\+|\-'
+      scope: keyword.operator.arithmetic
+
+  variables:
+    - match: '\b([a-z])\b'
+      scope: variable.other.readwrite.set
