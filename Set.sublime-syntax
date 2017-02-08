@@ -3,7 +3,7 @@
 name: Set
 file_extensions:
   - set
-scope: source.js
+scope: source.set
 
 contexts:
   main:
