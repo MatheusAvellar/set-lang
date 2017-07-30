@@ -28,6 +28,7 @@ set a A   > Assings ASCII value of 'A' (65) to the variable 'a'
 ```
 
 <hr/>
+
 ## Exclamation point (`!`)
 Exclamation points indicate input/output. When used as argument:
 
@@ -52,6 +53,7 @@ set b !
 ```
 
 <hr/>
+
 ## Question mark (`?`)
 Question marks represent the line of code which is being executed. When used as argument:
 
@@ -66,6 +68,7 @@ set z 1  > This line will never be executed, as the code cannot reach it
 ```
 
 <hr/>
+
 ## Combiners (`(N+M)`)
 Combiners allow you to combine two numbers into one. There are two valid combiners; each used in the place of argument `B`:
 
@@ -81,6 +84,7 @@ set b (A+1)  > Adds 1 to ASCII value of 'A' (65)
 ```
 
 <hr/>
+
 ## Conditionals (`[X=Y]`)
 By putting a conditional in front of a `set` command, you can make that command only run in some situations. There are two valid conditionals:
 
@@ -99,6 +103,7 @@ set a 1
 ```
 
 <hr/>
+
 ## Comments
 
 Although not specified in the original concept of the **Set** language,
