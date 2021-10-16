@@ -1,3 +1,11 @@
+---
+---
+
+**Hey!** This is very old code from when I had close to zero understanding of compilers, parsers and their respective best practices. I wouldn't use this code for anything, but I'll leave it here for archival purposes. Sorry for the trouble. —2021 me
+
+---
+---
+
 # About Set
 Esoteric **Set** programming language - Only one command, endless possibilities!
 Based off the [original specification](https://www.reddit.com/r/esolangs/comments/54b0b1/set_an_language_with_1_command/)
